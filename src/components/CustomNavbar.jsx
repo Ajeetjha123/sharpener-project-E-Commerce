@@ -23,6 +23,7 @@ const CustomNavbar = () => {
             <Link to='/home' style={navLinkStyle}>Home</Link>
             <Link to='/about' style={navLinkStyle}>About</Link>
             <Link to='/store' style={navLinkStyle}>Store</Link>
+            <Link to='/contact' style={navLinkStyle}>Contact</Link>
           </Nav>
         </Container>
         <Button variant="outline-success" style={{marginRight: 40}} onClick={handelClick}>Cart {cart.length}</Button>

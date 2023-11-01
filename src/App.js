@@ -5,6 +5,7 @@ import Store from './pages/Store';
 import Home from './pages/Home';
 import About from './pages/About';
 import Footer from './components/Footer'
+import Contact from './pages/Contact';
 function App() {
   return (
     <BrowserRouter>
@@ -14,6 +15,7 @@ function App() {
           <Route path='/store' element={<Store />} />
           <Route path='/home' element={<Home />} />
           <Route path='/about' element={<About />} />
+          <Route path='/contact' element={<Contact />} />
         </Routes>
       <Footer />
     </BrowserRouter>
