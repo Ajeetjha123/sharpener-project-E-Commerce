@@ -39,6 +39,15 @@
   display: flex;
   flex-direction: column;
   border: 1px solid black;
+  cursor: pointer;
+}
+img {
+  transition: transform 0.4s; /* Smooth transition */
+  
+}
+
+img:hover {
+  transform: scale(1.1); /* Zoom in by 10% */
 }
 
 .productDesc {
